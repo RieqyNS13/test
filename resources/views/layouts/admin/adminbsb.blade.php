@@ -335,12 +335,12 @@
                             <span>Magang</span>
                         </a>
                     </li> --}}
-                    <li class="{{Request::is('pengembangan') ? 'active':''}}">
+                 {{--    <li class="{{Request::is('pengembangan') ? 'active':''}}">
                         <a href="{{url('pengembangan')}}">
                             <i class="material-icons">layers</i>
                             <span>Fasilitasi Pengembangan</span>
                         </a>
-                    </li>
+                    </li> --}}
                     
                 </ul>
             </div>
