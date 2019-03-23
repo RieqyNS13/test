@@ -3022,7 +3022,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
 /* harmony default export */ __webpack_exports__["default"] = ({
   props: ['dataMagang', 'dataFieldPenilaian'],
   data: function data() {
@@ -3037,9 +3036,6 @@ __webpack_require__.r(__webpack_exports__);
       }, {
         text: 'Asal',
         value: 'asal'
-      }, {
-        text: 'Konstruktor',
-        value: 'konstruktor'
       }, {
         text: 'Mulai Magang',
         value: 'from'
@@ -9114,22 +9110,6 @@ var render = function() {
                                   },
                                   [_vm._v(_vm._s(props.item.asal))]
                                 ),
-                                _vm._v(" "),
-                                _c("td", {
-                                  domProps: {
-                                    innerHTML: _vm._s(
-                                      props.item.konstruktor
-                                        ? props.item.konstruktor.user.name
-                                        : "<span class='red--text'><i>--belum ada</i></span>"
-                                    )
-                                  },
-                                  on: {
-                                    click: function($event) {
-                                      _vm.setSubItem(props.index)
-                                      props.expanded = !props.expanded
-                                    }
-                                  }
-                                }),
                                 _vm._v(" "),
                                 _c(
                                   "td",
